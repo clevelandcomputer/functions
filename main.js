@@ -54,6 +54,27 @@ function factorial(m) {
 console.log(factorial(10));
 
 // kata's 5
+
+function fibonacci(z) {
+    let fibonacciTotal = 1;
+    let zero = 0;
+    let one = 1;
+    
+    for (let i = 3; i <= z; i++) {
+       
+        fibonacciTotal = add(zero, one);
+        zero = one;
+        one = fibonacciTotal
+      
+    
+    }
+    return fibonacciTotal;
+}
+
+console.log(fibonacci(101));
+
+
+
 // kata's 6
 // kata's 7
 // kata's 8
